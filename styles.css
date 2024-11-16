@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f9;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
     height: auto;
     border: 1px solid #C4C4C4;
     opacity: 1;
+    border-radius: 2%;
 }
 
 .text {
@@ -42,6 +44,7 @@ h1 {
     opacity: 0px;
     background: #FFDC40;
     margin-left: 0%;
+    border-radius: 2%;
 }
 
 .task-container {
@@ -115,6 +118,7 @@ h1 {
     line-height: 42px;
     cursor: pointer;
     transform: translateY(-50%);
+
 }
 
 .button2 {
@@ -126,6 +130,7 @@ h1 {
     color: white;
     font-size: 16px;
     cursor: pointer;
+   
 }
 
 .pic {
