@@ -58,6 +58,8 @@ plusButton.addEventListener('click', () => {
 addButton.addEventListener('click', () => {
     const taskContent = inputField.value;
     addTask(taskContent);
+    taskContainer.style.display='block';
+
 });
 
 clearButton.addEventListener('click', () => {
